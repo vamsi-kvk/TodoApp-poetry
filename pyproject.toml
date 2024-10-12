@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "todo-app"
+version = "0.1.0"
+description = ""
+authors = ["vamsi-kvk <vamsikvk14@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.3"
+numpy = "^2.1.2"
+requests = "^2.32.3"
+black = "^24.10.0"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+mock = "^5.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
